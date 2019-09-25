@@ -51,7 +51,9 @@ Para usar este repositório basta usar os seguintes comandos (E um terminal, pod
 =========
 
 Para aprenderes mais um pouco sobre git vê : [github-tutorial](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) e/ou  [git-guide]( http://rogerdudler.github.io/git-guide/)
-. Explora também : [Vim](http://www.openvim.com) , [Tmux](http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) , [Sublime](https://www.sublimetext.com).
+. Explora também : [Vim](http://www.openvim.com) , [Tmux](http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) , [Sublime](https://www.sublimetext.com). 
+
+- [Vim and Tmux config here! (link)](https://github.com/bmalbusca/Vim_config_files)
 
 By Bmalbusca a.k.a. Bruno Figueiredo.
  
