@@ -3,7 +3,28 @@ Git
 
 Para usar este repositório basta usar os seguintes comandos (E um terminal, pode ser Bash on Ubuntu on Windows, linux ou MacOS) :
 
-  Instalar Bash on Windows - https://msdn.microsoft.com/en-us/commandline/wsl/install-win10 ou https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10
+  > - Windows
+  >
+  > Instalar Bash on Windows - https://msdn.microsoft.com/en-us/commandline/wsl/install-win10 ou https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10
+  >
+  > - Linux or MacOS
+  >
+  > (segue para o passo seguinte)
+  
+    
+  Git - Instalação
+-------------
+
+ Verifica se ja tens Git instalado no teu terminal: ```git --version``` 
+ 
+  > - Unix/Linux
+  >
+  > **@terminal:~$** ``` sudo apt-get install git ```
+  >
+  > - MacOS (brew)
+  >
+  > **@terminal:~$** ```brew install git ```
+ 
 
   Para começar, tens que fazer o link entre repositórios, Local e Cloud.
 -------------
@@ -13,11 +34,9 @@ Para usar este repositório basta usar os seguintes comandos (E um terminal, pod
 
 - 3º `git fetch` - Adiciona as flags dos branchs existentes no repositório - Usa isto se já existir alguma coisa no respositório e além disso com mais do que um ramo
 
-> **Challenge**
->
-> [x] Accepted 
->
-> [ ] *Next time bro.*
+> **Note:**
+> Só tens que fazer estes passos desta secção uma única vez por repositório. 
+
 
  Agora já podes começar a dar tudo no git! ( Entra dentro do repositorio: ``$ cd nome_do_repositorio``  )
 -------------
@@ -38,6 +57,7 @@ Para usar este repositório basta usar os seguintes comandos (E um terminal, pod
 - 6º `git commit -m 'escreve o teu update'` - comentário de status
 
 - 7º `git push origin` - usa origin no caso de estares no branch master. Na situação de não estares no branch certo, verifica com um git status ou git tree
+
 
  Actualizar o teu repositório
  -------------
