@@ -1,19 +1,22 @@
-Git
+# Git :pushpin:
+
 -------------
 
 Para usar este repositório basta usar os seguintes comandos (E um terminal, pode ser Bash on Ubuntu on Windows, linux ou MacOS) :
 
-  > - Windows
-  >
-  > Instalar Bash on Windows - https://msdn.microsoft.com/en-us/commandline/wsl/install-win10 ou https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10
-  >
-  > - Linux or MacOS
-  >
-  > (segue para o passo seguinte)
+- Windows :
+   
+ Instalar Bash on Windows - https://msdn.microsoft.com/en-us/commandline/wsl/install-win10 ou https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10
+  
+- Linux or MacOS
+ 
+ (segue para o passo seguinte)
   
     
-  Git - Instalação
--------------
+ ### Instalar Git no terminal?
+ 
+ ________________
+
 
  Verifica se ja tens Git instalado no teu terminal: ```git --version``` 
  
@@ -25,6 +28,8 @@ Para usar este repositório basta usar os seguintes comandos (E um terminal, pod
   >
   > **@terminal:~$** ```brew install git ```
  
+
+# Como funciona?     :information_source:
 
   Para começar, tens que fazer o link entre repositórios, Local e Cloud.
 -------------
