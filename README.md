@@ -57,7 +57,7 @@ Se não tens um terminal linux, começa a tratar disso:
 
 > **Note:**
 > - 5.1º `git add .` - Adiciona tudo
-> - 5.2º `git add nomedapasta/*` - Adicona pasta com ficheiros dentro
+> - 5.2º `git add nomedapasta/*` - Adiciona pasta com ficheiros dentro
 > - 5.3º `git add -u` - Adiciona todos os ficheiros modificados e eliminados
 
 - 6º `git commit -m 'escreve o teu update'` - comentário de status
@@ -73,7 +73,11 @@ Se não tens um terminal linux, começa a tratar disso:
 > - Se quiseres cagar naquilo que fizeste e queres **MESMO** o que está em cloud faz primeiro: `git checkout --` ou `git stash` (mais seguro)
 > - Se quiseres juntar os códigos ( local vs cloud) , vais ter que resolver alguns conflitos. Entra dentro dos ficheiros e apaga aquilo que não queres (implentações mais antigas, por exemplo!) e volta a fazer push! [**Acabaste de resolver/fazer um merge!**](http://gph.is/29qxLq2)
 
-[Feito !](https://github.com/bmalbusca/) 
+
+
+
+
+[Feito !](https://github.com/bmalbusca/)
 =========
 
 Para aprenderes mais um pouco sobre git vê : [github-tutorial](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) e/ou  [git-guide]( http://rogerdudler.github.io/git-guide/)
@@ -83,4 +87,9 @@ Para aprenderes mais um pouco sobre git vê : [github-tutorial](http://product.h
 - [Git stats : git-quick-stats (link)](https://lukasmestan.com/git-quick-stats/) 
 
 By Bmalbusca 
+
+ ________________
+
+Merge, Branch e Rebase (Em breve)
+ -------------
  
