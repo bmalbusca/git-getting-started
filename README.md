@@ -2,7 +2,7 @@
 
 
 
-Para usar repositórios Git basta usar os comandos presentes nas secções seguintes (E um terminal, pode ser Bash on Ubuntu on Windows, linux ou MacOS).
+Para usar repositórios Git basta aprender como funcionam os comandos presentes nas secções seguintes (E um terminal, pode ser Bash on Ubuntu on Windows, linux ou MacOS).
 Se não tens um terminal linux, começa a tratar disso:
 
 - Windows :
