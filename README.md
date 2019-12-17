@@ -1,8 +1,9 @@
 # Git :pushpin:
 
--------------
 
-Para usar este repositório basta usar os seguintes comandos (E um terminal, pode ser Bash on Ubuntu on Windows, linux ou MacOS) :
+
+Para usar repositórios Git basta usar os comandos presentes nas secções seguintes (E um terminal, pode ser Bash on Ubuntu on Windows, linux ou MacOS).
+Se não tens um terminal linux, começa a tratar disso:
 
 - Windows :
    
@@ -69,8 +70,8 @@ Para usar este repositório basta usar os seguintes comandos (E um terminal, pod
 
 - 8º `git pull`
 > **Note** 
-> - Se quiseres cagar naquilo que fizeste e queres **MESMO** o que está em cloud faz primeiro: `git checkout --`
-> - Se quiseres juntar os coódigos ( local vs cloud) , vais ter que resolver alguns conflitos. Entra dentro dos ficheiros e apaga aquilo que não queres (implentações mais antigas, por exemplo!) e volta a fazer push! [**Acabaste de resolver/fazer um merge!**](http://gph.is/29qxLq2)
+> - Se quiseres cagar naquilo que fizeste e queres **MESMO** o que está em cloud faz primeiro: `git checkout --` ou `git stash` (mais seguro)
+> - Se quiseres juntar os códigos ( local vs cloud) , vais ter que resolver alguns conflitos. Entra dentro dos ficheiros e apaga aquilo que não queres (implentações mais antigas, por exemplo!) e volta a fazer push! [**Acabaste de resolver/fazer um merge!**](http://gph.is/29qxLq2)
 
 [Feito !](https://github.com/bmalbusca/) 
 =========
@@ -79,6 +80,7 @@ Para aprenderes mais um pouco sobre git vê : [github-tutorial](http://product.h
 . Explora também : [Vim](http://www.openvim.com) , [Tmux](http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) , [Sublime](https://www.sublimetext.com). 
 
 - [Vim and Tmux config here! (link)](https://github.com/bmalbusca/Vim_config_files)
+- [Git stats : git-quick-stats (link)](https://lukasmestan.com/git-quick-stats/) 
 
-By Bmalbusca a.k.a. Bruno Figueiredo.
+By Bmalbusca 
  
