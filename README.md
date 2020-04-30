@@ -5,13 +5,14 @@
 Para usar repositórios Git basta aprender como funcionam os comandos presentes nas secções seguintes (E um terminal, pode ser Bash on Ubuntu on Windows, linux ou MacOS).
 Se não tens um terminal linux, começa a tratar disso:
 
-- Windows :
-   
- Instalar Bash on Windows - https://msdn.microsoft.com/en-us/commandline/wsl/install-win10 ou https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10
-  
-- Linux or MacOS
- 
- (segue para o passo seguinte)
+>
+> - Windows :
+>   
+> Instalar Bash on Windows - https://msdn.microsoft.com/en-us/commandline/wsl/install-win10 ou https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10
+>  
+> - Linux or MacOS
+> 
+> (segue para o passo seguinte)
   
     
  ### Instalar Git no terminal?
@@ -32,8 +33,10 @@ Se não tens um terminal linux, começa a tratar disso:
 
 # Como funciona?     :information_source:
 
-  Para começar, tens que fazer o link entre repositórios, Local e Cloud.
--------------
+  Para começar, tens que fazer o link entre repositórios, Local e Cloud ***(1x only)***.
+  -------------
+
+
 - 1º `git clone <endereço do repositório no Github>` - Cria uma pasta clone na tua directoria
 
 - 2º `git remote add origin <endereço do repositório no Github>` - Cria uma ligação entre o teu repositório local e o repositório no Github
@@ -41,7 +44,7 @@ Se não tens um terminal linux, começa a tratar disso:
 - 3º `git fetch` - Adiciona as flags dos branchs existentes no repositório - Usa isto se já existir alguma coisa no respositório e além disso com mais do que um ramo
 
 > **Note:**
-> Só tens que fazer estes passos desta secção uma única vez por repositório. 
+> Só tens de fazer estes passos desta secção uma única vez por repositório. 
 
 
  Agora já podes começar a dar tudo no git! ( Entra dentro do repositorio: ``$ cd nome_do_repositorio``  )
@@ -70,8 +73,8 @@ Se não tens um terminal linux, começa a tratar disso:
 
 - 8º `git pull`
 > **Note** 
-> - Se quiseres cagar naquilo que fizeste e queres **MESMO** o que está em cloud faz primeiro: `git checkout --` ou `git stash` (mais seguro)
-> - Se quiseres juntar os códigos ( local vs cloud) , vais ter que resolver alguns conflitos. Entra dentro dos ficheiros e apaga aquilo que não queres (implentações mais antigas, por exemplo!) e volta a fazer push! [**Acabaste de resolver/fazer um merge!**](http://gph.is/29qxLq2)
+> - Se quiseres cagar naquilo que fizeste e queres **MESMO** o que está em cloud faz primeiro: `git checkout --` ou `git stash` (**mais seguro** - guarda o *commit* localmente e podes aceder-lo com  `git checkout <id do commit stashed>`)
+> - Se quiseres juntar os códigos ( local vs cloud) , vais ter que resolver alguns conflitos. Entra dentro dos ficheiros e apaga aquilo que não queres (implentações mais antigas, por exemplo!) e volta a fazer push! - [**Acabaste de resolver/fazer um merge!**](http://gph.is/29qxLq2)  - `>>>> HEAD` será o identifcador da tua versão (no teu PC).  
 
 
 
@@ -80,7 +83,23 @@ Se não tens um terminal linux, começa a tratar disso:
 [Feito !](https://github.com/bmalbusca/)
 =========
 
-Para aprenderes mais um pouco sobre git vê : [github-tutorial](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) e/ou  [git-guide]( http://rogerdudler.github.io/git-guide/)
+
+
+
+Merge, Branch e Rebase (Em breve)
+ -------------
+ #### Trabalha num lado separado para tudo correr bem (Branches!)
+ 
+ - 1º `git branch <nome do branch>` - Cria um ramo a partir do *node* actual
+
+- 2º `git checkout <nome do branch usado>` - Muda a HEAD para o *branch* criado anteriormente. Neste momento estas a trabalhar no *branch* que criaste.
+
+> **Note** 
+> - Na primeira vez que tentares fazer *push* vais ter que usar  `--set-upstream origin <new-branch>` ou `-u origin <new-branch>` 
+
+
+ ________________
+ Para aprenderes mais um pouco sobre git vê : [github-tutorial](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) e/ou  [git-guide]( http://rogerdudler.github.io/git-guide/)
 . Explora também : [Vim](http://www.openvim.com) , [Tmux](http://www.hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/) , [Sublime](https://www.sublimetext.com). 
 
 - [Vim and Tmux config here! (link)](https://github.com/bmalbusca/Vim_config_files)
@@ -88,8 +107,5 @@ Para aprenderes mais um pouco sobre git vê : [github-tutorial](http://product.h
 
 By Bmalbusca 
 
- ________________
-
-Merge, Branch e Rebase (Em breve)
- -------------
+ 
  
